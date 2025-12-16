@@ -87,46 +87,63 @@ const FeaturedProjects = () => {
                 </div>
                 
 
-                <div className="grid grid-cols-1 gap-1 sml:grid-cols-2 mt-4">
+                <div className="grid grid-cols-1 gap-1 med:grid-cols-4 sml:grid-cols-2 mt-4">
 
-                    <div className=" h-[7rem] bg-tertiary rounded-lg flex m-3 flex-row items-center border-[.1rem] border-solid border-primary shadow-[0px_0px_5px_1px_rgba(136,0,255,0.8)]">
-                        
-                        <img alt="image of project#1" src={tricon} className="h-full w-[9rem]  mr-2 rounded-l-lg"/>
-                        <div className="m-2 rounded-lg w-full">
-                            <h1 className="flex w-full justify-center font-semibold ">Project Title</h1>
-                            <p className=" hidden xxs:flex text-xs text-left">This was a project about making a website for the here I used react node.js and tailwind along with typescript</p>
+
+                    <div>
+                        <span>Project Ttitle</span>
+                        <div className=" h-[7rem]  med:h-full bg-tertiary rounded-lg flex m-3 flex-row items-center med:flex-col  border-[.1rem] border-solid border-primary shadow-[0px_0px_5px_1px_rgba(136,0,255,0.8)]">
+                            
+                            
+                            <img alt="image of project#1" src={tricon} className="h-full w-[9rem] med:rounded-tr-lg med:rounded-bl-none med:mb-2 med:w-full block med:mr-0 mr-2 rounded-l-lg"/>
+                            <div className="m-2 rounded-lg w-full ">
+                                <h1 className="flex justify-center w-full med:hidden font-semibold ">Project Title</h1>
+                                <p className=" hidden xxs:flex sml:hidden  med:flex text-xs text-left">This was a project about making a website for the here I used react node.js and tailwind along with typescript</p>
+                            </div>
+                            
                         </div>
-
                     </div>
 
-                    <div className=" h-[7rem] bg-tertiary rounded-lg flex m-3 flex-row items-center  border-[.1rem] border-solid border-primary shadow-[0px_0px_5px_1px_rgba(136,0,255,0.8)]">
-                        
-                        <img alt="image of project#1" src={tricon} className="h-full w-[9rem] block mr-2 rounded-l-lg"/>
-                        <div className="m-2 rounded-lg w-full ">
-                            <h1 className="flex justify-center w-full font-semibold ">Project Title</h1>
-                            <p className=" hidden xxs:flex text-xs text-left">This was a project about making a website for the here I used react node.js and tailwind along with typescript</p>
+                     <div>
+                        <span>Project Ttitle</span>
+                        <div className=" h-[7rem]  med:h-full bg-tertiary rounded-lg flex m-3 flex-row items-center med:flex-col  border-[.1rem] border-solid border-primary shadow-[0px_0px_5px_1px_rgba(136,0,255,0.8)]">
+                            
+                            
+                            <img alt="image of project#1" src={tricon} className="h-full w-[9rem] med:rounded-tr-lg med:rounded-bl-none med:mb-2 med:w-full block med:mr-0 mr-2 rounded-l-lg"/>
+                            <div className="m-2 rounded-lg w-full ">
+                                <h1 className="flex justify-center w-full med:hidden font-semibold ">Project Title</h1>
+                                <p className=" hidden xxs:flex sml:hidden  med:flex text-xs text-left">This was a project about making a website for the here I used react node.js and tailwind along with typescript</p>
+                            </div>
+                            
                         </div>
-                        
                     </div>
 
-                    <div className=" h-[7rem] bg-tertiary rounded-lg flex m-3 flex-row items-center  border-[.1rem] border-solid border-primary shadow-[0px_0px_5px_1px_rgba(136,0,255,0.8)]">
-                        
-                        <img alt="image of project#1" src={tricon} className="h-full w-[9rem] block mr-2 rounded-l-lg"/>
-                        <div className="m-2 rounded-lg w-full ">
-                            <h1 className="flex justify-center font-semibold w-full ">Project Title</h1>
-                            <p className=" hidden xxs:flex text-xs text-left">This was a project about making a website for the here I used react node.js and tailwind along with typescript</p>
+                     <div>
+                        <span>Project Ttitle</span>
+                        <div className=" h-[7rem]  med:h-full bg-tertiary rounded-lg flex m-3 flex-row items-center med:flex-col  border-[.1rem] border-solid border-primary shadow-[0px_0px_5px_1px_rgba(136,0,255,0.8)]">
+                            
+                            
+                            <img alt="image of project#1" src={tricon} className="h-full w-[9rem] med:rounded-tr-lg med:rounded-bl-none med:mb-2 med:w-full block med:mr-0 mr-2 rounded-l-lg"/>
+                            <div className="m-2 rounded-lg w-full ">
+                                <h1 className="flex justify-center w-full med:hidden font-semibold ">Project Title</h1>
+                                <p className=" hidden xxs:flex sml:hidden  med:flex text-xs text-left">This was a project about making a website for the here I used react node.js and tailwind along with typescript</p>
+                            </div>
+                            
                         </div>
-                        
                     </div>
 
-                    <div className=" h-[7rem] bg-tertiary rounded-lg flex m-3 flex-row items-center  border-[.1rem] border-solid border-primary shadow-[0px_0px_5px_1px_rgba(136,0,255,0.8)]">
-                        
-                        <img alt="image of project#1" src={tricon} className="h-full w-[9rem] block mr-2 rounded-l-lg"/>
-                        <div className="m-2 rounded-lg w-full ">
-                            <h1 className="flex justify-center font-semibold w-full ">Project Title</h1>
-                            <p className=" hidden xxs:flex text-xs text-left">This was a project about making a website for the here I used react node.js and tailwind along with typescript</p>
+                     <div>
+                        <span>Project Ttitle</span>
+                        <div className=" h-[7rem]  med:h-full bg-tertiary rounded-lg flex m-3 flex-row items-center med:flex-col  border-[.1rem] border-solid border-primary shadow-[0px_0px_5px_1px_rgba(136,0,255,0.8)]">
+                            
+                            
+                            <img alt="image of project#1" src={tricon} className="h-full w-[9rem] med:rounded-tr-lg med:rounded-bl-none med:mb-2 med:w-full block med:mr-0 mr-2 rounded-l-lg"/>
+                            <div className="m-2 rounded-lg w-full ">
+                                <h1 className="flex justify-center w-full med:hidden font-semibold ">Project Title</h1>
+                                <p className=" hidden xxs:flex sml:hidden  med:flex text-xs text-left">This was a project about making a website for the here I used react node.js and tailwind along with typescript</p>
+                            </div>
+                            
                         </div>
-                        
                     </div>
 
                     
