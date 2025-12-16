@@ -21,10 +21,13 @@ const Certifications = () => {
             </h1>
 
             
-            
-            <Track />
-            <ScrollWheel scrollSpeed={3} />
+            <span className="w-full h-full flex items-center justify-center">coming soon</span>
 
+            <div className="hidden">
+                <Track />
+                <ScrollWheel scrollSpeed={3} />
+            </div>
+            
             
 
 
