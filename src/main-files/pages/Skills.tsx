@@ -2,14 +2,14 @@
 import '../../index.css'
 import { siteData } from '../../assets/Variables';
 import profilegreen from '../../assets/profilegreen.gif'
-import Dropdown from '../components/util/Dropdown';
-import { useState } from 'react';
+
+///import { useState } from 'react';
 
 
 
 
 function Skills() {
-    const [selectedOption, setSelectedOption] = useState('frontend');
+    /// const [selectedOption, setSelectedOption] = useState('frontend');
 
    
 
@@ -93,7 +93,9 @@ function Skills() {
                             
 
                             <div className='w-full flex justify-center items-center gap-[.3rem] sml:hidden mb-2 mx-1 '>
-                                <Dropdown {...({
+                                
+                                
+                               {/* <Dropdown {...({
                                     placeHolder: 'Front-End Development',
                                     options: ['frontend', 'backend', 'other'],
                                     onSelect: () => setSelectedOption('frontend'),
@@ -124,7 +126,7 @@ function Skills() {
                                     options: ['frontend', 'backend','other'],
                                     onSelect: () => setSelectedOption('QA'),
                                     className: `rounded-md ${selectedOption === "QA" ? "border-primary border" : ""}`
-                                } as any)}/>
+                                } as any)}/> */}
                                 
 
                             </div>

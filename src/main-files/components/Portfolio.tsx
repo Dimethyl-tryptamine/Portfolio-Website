@@ -1,19 +1,19 @@
 
 
 import DownloadLinks from "./util/DownloadLinks";
-import myPortfolioImgpng from "../../assets/my portfolio.png";
-import myPortfolioImgjpg from "../../assets/my portfolio.jpg";
-import myPortfolioImgpdf from "../../assets/my portfolio.pdf";
+import ResumeImgjpg from "../../assets/ResumeImgjpg.jpg";
+import ResumeImgpdf from "../../assets/ResumeImgpdf.pdf";
+import ResumeImgpng from "../../assets/ResumeImgpng.png";
 
 const Portfolio = () => {
 
 
     return(
 
-        <div className=' bg-secondary border-solid border-primary mb-[2rem] p-2 rounded-[1rem] border-[.1rem]   h-auto shadow-[0px_0px_5px_1px_rgba(136,0,255,0.8)]'>
+        <div className=' bg-secondary border-solid border-primary mb-[2rem] p-2 rounded-[1rem] border-[.1rem] h-auto shadow-[0px_0px_5px_1px_rgba(136,0,255,0.8)]'>
 
 
-                    <h1 className='text-[1rem] font-gothic xsm:text-[1.5rem]  sml:text-[2rem] '>
+                    <h1 className='text-[1rem] font-gothic xsm:text-[1.5rem] sml:text-[2rem] '>
                      Downloadable Portfolio
                      <hr className="  border-primary w-[10.5rem] sml:w-[21rem] xsm:w-[16rem] m-1 ml-0 rounded-lg shadow-[0px_0px_5px_1px_rgba(136,0,255,0.8)]" />
                     </h1>
@@ -25,9 +25,9 @@ const Portfolio = () => {
                         Feel free to explore my work and get in touch if you'd like to collaborate or learn more about my projects!
                     </div>
                     <div className='flex w-full justify-end '>
-                        <DownloadLinks text="JPG" file={myPortfolioImgjpg} />
-                        <DownloadLinks text="PDF" file={myPortfolioImgpdf} />
-                        <DownloadLinks text="PNG" file={myPortfolioImgpng} />
+                        <DownloadLinks text="JPG" file={ResumeImgjpg} />
+                        <DownloadLinks text="PDF" file={ResumeImgpdf} />
+                        <DownloadLinks text="PNG" file={ResumeImgpng} />
                     </div>
                     
                 </div>
