@@ -22,7 +22,7 @@ const Portfolio = () => {
 
                     <div className='font-koho text-[#959595] leading-tight text-sm xsm:text-base sml:text-lg lrg:text-xl med:text-2xl'>
                         I'm a passionate web developer with a focus on creating intuitive, user-friendly websites and applications. With a strong foundation in front-end and back-end technologies, I bring both technical skills and a creative approach to problem-solving. 
-                        Feel free to explore my work and get in touch if you'd like to collaborate or learn more about my projects!
+                        Feel free to explore my work and get in touch if you'd like to collaborate or learn more about my projects!     github: <a href="https://github.com/Dimethyl-tryptamine" target="_blank" rel="noopener noreferrer" className="text-primary">Dimethyl-tryptamine</a>
                     </div>
                     <div className='flex w-full justify-end '>
                         <DownloadLinks text="JPG" file={ResumeImgjpg} />
