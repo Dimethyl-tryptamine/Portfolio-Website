@@ -43,7 +43,7 @@ This is my main portfolio website. I will be maintaining, updating and managing 
 - Enhanced accessibility features
 - Performance optimizations
 
-## Installation steps:
+## Installation Steps:
 clone the repository:
 
 ```bash
