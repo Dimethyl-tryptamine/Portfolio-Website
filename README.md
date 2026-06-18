@@ -3,7 +3,7 @@
 ## Overview:
 This is my main portfolio website. I will be maintaining, updating and managing this repository as I gather more skills and experience.
 
-# Live Demo Link:
+## Live Demo Link:
 [Visit portfolio site](https://portfoliowastaken.netlify.app/)
 
 ## Features:
