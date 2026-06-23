@@ -1,5 +1,5 @@
 import evergreencover from "../../assets/evergreencover.png";
-import tricon from "../../assets/tricon.jpg"
+
 import searchcover from "../../assets/searchcover.png"
 import {useState} from "react";
 import {motion} from 'framer-motion'
