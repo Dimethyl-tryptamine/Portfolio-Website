@@ -56,7 +56,7 @@ const Hero = () => {
 
             {/* Name Text under the Card */}
             <div className="mt-2 text-[white] text-[2rem] sml:text-[4vw] font-gothic">
-              Bryan Gonzalez
+              Bryan Reyes
             </div>
           </div>
 
