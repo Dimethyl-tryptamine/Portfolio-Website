@@ -48,7 +48,7 @@ const FeaturedProjects = () => {
                         <div className="w-full flex  items-center justify-center text-[1.5rem] ">
                              Featured Projects
                         </div>    
-                        <hr className={`border-primary w-[12rem] sml:hidden sml:w-[16.5rem]  mx-auto rounded-lg shadow-[0px_0px_5px_1px_rgba(136,0,255,0.8)] ${!isOpen ? 'hidden' : ''}`}/>
+                        <hr className={`border-primary w-[12rem] sml:hidden sml:w-[16.5rem]  mx-auto rounded-lg shadow-[0px_0px_5px_1px_rgba(136,0,255,0.8)] ${isOpen ? 'hidden' : ''}`}/>
                              
                     </div>
                         

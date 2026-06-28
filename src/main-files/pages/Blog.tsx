@@ -16,10 +16,10 @@ function Blog() {
             <Header />
             
             
-            <div className=" text-primary ">
+            <div className=" text-white ">
 
-                <h1 className="justify-center">this is homepage</h1>
-
+                <h1 className="justify-center">this is homepage<br /> 
+                geheheveververvev</h1>
             </div>
                 
                 
