@@ -1,5 +1,4 @@
 import evergreencover from "../../assets/evergreencover.png";
-
 import searchcover from "../../assets/searchcover.png"
 import {useState} from "react";
 import {motion} from 'framer-motion'
@@ -7,7 +6,7 @@ import {motion} from 'framer-motion'
 
 const FeaturedProjects = () => {
 
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(() => window.innerWidth >= 720); // set the initial state based on the initial window width 
         
     const handleClick = () => {
         setIsOpen(!isOpen);
@@ -40,13 +39,13 @@ const FeaturedProjects = () => {
     return (
         <div className='bg-secondary pb-6 border-solid border-primary p-[.5rem] rounded-[1rem] border-[.1rem] flex flex-col mb-[2rem] h-auto shadow-[0px_0px_5px_1px_rgba(136,0,255,0.8)] overflow-hidden'>
 
-            <motion.div className="sml:flex flex-col gap-1 med:grid-cols-4 sml:grid-cols-2 mt-4" variants={boxVariants} initial="closed" animate={isOpen ? "open" : "closed"}>
+            <motion.div className="sml:flex flex-col gap-1 med:grid-cols-4 sml:grid-cols-2 mt-4" variants={boxVariants} initial={isOpen ? "open" : "closed"} animate={isOpen ? "open" : "closed"}>
 
                 <div className="w-full flex  mb-4 xsm:text-[1.5rem] sml:text-[2rem]">
                         
                     <div className=" grid w-full justify-center items-center ">
                         <div className="w-full flex  items-center justify-center text-[1.5rem] ">
-                             Featured Projects
+                            Featured Projects
                         </div>    
                         <hr className={`border-primary w-[12rem] sml:hidden sml:w-[16.5rem]  mx-auto rounded-lg shadow-[0px_0px_5px_1px_rgba(136,0,255,0.8)] ${isOpen ? 'hidden' : ''}`}/>
                              
@@ -66,7 +65,7 @@ const FeaturedProjects = () => {
         
     
           
-                <div>
+                <div className={`grid med:grid-cols-2  gap-2 sml:gap-4  ${isOpen ? 'block' : 'hidden'} `}>
                     <a href="https://evergreenestates.netlify.app/" target="_blank" rel="noopener noreferrer"> {/*add link to project here + noonpener noreferrer to close security vulnerability*/}
                         <div className="flex flex-col justify-center">
                             <span className=" hidden med:flex justify-center">EverGreen Estates</span>
@@ -89,7 +88,7 @@ const FeaturedProjects = () => {
                             <div className=" h-[7rem]  med:h-full bg-tertiary rounded-lg flex m-3 flex-row items-center med:flex-col  border-[.1rem] border-solid border-primary shadow-[0px_0px_5px_1px_rgba(136,0,255,0.8)]">
                                 
 
-                            <img alt="image of project#1" src={searchcover} className="h-full w-[9rem] mr-0 med:rounded-tr-lg med:rounded-bl-none med:mb-2 med:w-full block med:mr-0 mr-2 rounded-l-lg"/>
+                            <img alt="image of project#1" src={searchcover} className="h-full w-[9rem] med:rounded-tr-lg med:rounded-bl-none med:mb-2 med:w-full block med:mr-0 mr-2 rounded-l-lg"/>
                             <div className="mt-0 ml-0 rounded-lg h-full flex w-full p-2">
                                 <span className=" med:hidden w-full flex text-2xl items-center justify-center">Search Project</span>
                                 

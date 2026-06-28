@@ -13,19 +13,20 @@ import Portfolio from '../components/Portfolio.tsx';
 function Home() {
 
 
-    return (
-        <div>
+    return (<>
+    
+        <Hero />
+        <div className="max-w-[1000px] mx-auto">
                 
                 
-            <Hero />
             
             
-            <div className=" p-[.5rem] m-[1rem] sml:m-[5rem] sml:mt-0 mt-0 overflow-x-hidden ">
+            
+            <div className=" p-[.5rem] m-[1rem] sml:m-[5rem]  sml:mt-0 mt-0 max-w-[1000px] mx-auto overflow-x-hidden ">
                 
 
                 <Portfolio />
                 <FeaturedProjects />
-
                 <Certifications />
 
 
@@ -37,6 +38,7 @@ function Home() {
                 
                 
         </div>
+        </>
     )
 }
 
