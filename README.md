@@ -76,6 +76,7 @@ npm run build
 - Gained experience working with TypeScript for safer and more maintainable code.
 - Implemented animations using Framer Motion while maintaining performance.
 - Learned how to organize and scale a larger React project structure.
+- Lifting State
 
 ## Author  
 - Bryan Reyes 
